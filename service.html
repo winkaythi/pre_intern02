@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title> Service page</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/all.min.css">
+       
+       <style>
+         
+           .container{
+            width: 100%;
+                height: 100%;
+               
+           }
+           .heading{
+            background-color: darkgreen;
+                width: 100%;
+                height: 15%;
+                position: fixed;
+                top: 0;
+                left: 0;
+           }
+          
+            .footer{
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: darkgreen;
+                color: white;
+                text-align: center;
+            }
+            .navbar{
+                width: 100%;
+                margin: 10px;
+                margin-left: 45%;
+                margin-top: 20px;
+                height: 18%;
+            }
+            .nav {       
+                font-family: Arial, Helvetica, sans-serif; 
+                font-size: 14px;      
+				list-style: none;       
+                margin:0px;
+                padding: 0;
+                z-index: 0;
+            }     
+            .add{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                list-style-type: none;
+                
+                
+                padding: 0;
+                opacity: 0.95;
+                z-index: 1;
+                
+            }
+			.nav li {       
+				background-color: darkgreen;     	
+				height: 40px;       
+				line-height: 40px;       
+				text-align: center;       
+				width: 100px;     
+			}
+			.nav li a {       
+				display: block;       
+				text-decoration: none;       
+				color: #fff;     
+			}     
+			.nav li a:hover {       
+				background-color: darkgreen;   
+			}     
+			.nav > li {       
+				       
+				float: left;     
+			}     
+			.add {       
+				display: none;     
+			}     
+			.nav > li:hover .add {    
+                   
+				display: block;     
+			}     
+			.add li {       
+                background-color:darkgreen;
+                width: 150px;   
+                
+                
+            }
+            .add li a{
+                display: block;
+                border:1px solid darkgreen ;
+                border-radius: 5px;
+                background-color:darkgreen;
+            }
+            .add li a:hover{
+                background-color: white;
+                color:darkgreen;
+            }
+            u{
+                color: darkgreen;
+                width: 40px;
+            }
+            .logo{
+                padding-left: 120px;
+                width: 30%;
+                position: absolute;
+                max-width: 20px;
+            }
+            .imagelogo{
+                margin: 20px;
+                padding: 20px;
+               height: 60px;
+               margin-top: 1px;
+            }
+            .mainbody1{
+                position: absolute;
+                margin-top: 16%;
+                left: 50px;
+                
+                width: 100%;
+                height: 40%;
+                padding: 10px;
+            }
+            .main1{
+                float: left;
+                width: 50%;
+                height: 40%;
+                position: absolute;
+                margin-top: 5px;
+            }
+            .main2{
+                
+                width:50%;
+                float: left;
+                position: absolute;
+                margin-left: 50%;
+                height: 40%;
+                margin-top: 5px;
+            }
+            
+            .serviceimg {
+                      border: 1px solid #ddd;
+                         border-radius: 5px;
+                          float: left;
+                      width: 45%;
+                      margin: 8px;
+                       padding: 5px;
+                         box-shadow: 0 0 2px 1px lightgray;
+                    }
+                    .serviceimg:hover{
+                box-shadow: 0 0 8px 7px lightgray;
+            }
+            .title{
+                margin-top: 5px;
+                margin-left:50%;
+            }
+            .mainbody2{
+                position: absolute;
+                margin-top: 60%;
+                left: 50px;
+                margin-bottom: 200px;
+                width: 100%;
+                height: 40%;
+                padding: 10px;
+            }
+            .main3{
+                float: left;
+                width: 30%;
+                
+              bottom: 200px;
+                position: absolute;
+                height: 30%;
+            }
+            .main4{
+                float: left;
+                width: 30%;
+                
+               bottom: 200px;
+                position: absolute;
+                left: 35%;
+                height: 30%;
+            }
+            .main5{
+                float: left;
+                width: 30%;
+              
+               bottom: 200px;
+                position: absolute;
+                left: 70%;
+                height: 30%;
+            }
+            .fblink{
+                border: 1px solid #ddd;
+                margin: 0;
+                border-radius: 5px;
+                float: left;
+                width:90%;
+                padding: 5px;
+                box-shadow: 0 0 2px 1px lightgray;
+            }
+            .fblink:hover{
+                box-shadow: 0 0 8px 7px lightgray;
+            }
+            
+       </style>
+    </head>
+    <body>
+      
+    <div class="container">
+        <div class="heading">
+                <div class="logo"> <img src="../pre_intern02/img/stl_logo.png" width="120px" class="imagelogo"></div>
+            <div class="navbar">
+                <ul class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="#">About US <img src="../pre_intern02/img/menu arrow.png" width="10px" height="8px"></a>
+                            <ul class="add">
+                                <li><a href="#">Profile</a></li>
+                                <li><a href="#">Our Structure</a></li>
+                                <li><a href="#">Our Commitment</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="#">Services</a></li>
+                    <li>
+                        <a href="#">Project <img src="../pre_intern02/img/menu arrow.png" width="10px" height="8px"></a>
+                            <ul class="add">
+                                <li><a href="#">Industrial</a></li>
+                                <li><a href="#">Commmercial</a></li>
+                                <li><a href="#">Construction &amp; Interior</a></li>
+                                <li><a href="#">Infrastructure</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="#">Activities</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+    
+        <div class="mainbody1">
+            <div class="main1">You are Solution for Industrial Development and Construction in Myanmar.
+
+                           <ul>
+
+                    <li style="list-style: disc; float: none;">Design & Build</li>
+                    <li  style="list-style: disc; float: none;">Turnkey</li>
+                    <li  style="list-style: disc; float: none;">Joint Venture</li>
+                    <li  style="list-style: disc; float: none;">Business Consultancy</li>
+                    <li  style="list-style: disc; float: none;"> Main Contractor</li>
+                </ul>
+            Whatever we do, wherever are in construction, the impact for time, budget and quality is beyond customer expectation.
+       Projects <br>Projects
+                <ul>
+                    <li style="list-style: disc; float: none;">Construction and Interior</li>
+                    <li  style="list-style: disc; float: none;">Turnkey</li>
+                    <li  style="list-style: disc; float: none;">Industrial</li>
+                    <li  style="list-style: disc; float: none;">Infrastructure</li>
+       
+                </ul>
+            </div>
+        
+
+            <div class="title"><u><b>OUR SERVICE</b></u></div>
+            <div class="main2">
+                
+                   <img src="../pre_intern02/img/1_Services.jpg" class="serviceimg">
+                   <img src="../pre_intern02/img/2_Services.jpg" class="serviceimg">
+                   <img src="../pre_intern02/img/3_Services.jpg" class="serviceimg">
+              
+                    
+                    
+                    <img src="../pre_intern02/img/4_Services.jpg"class="serviceimg">
+                </div>
+            </div>
+        </div>
+        <div class="mainbody2">
+            <div class="main3"><u>Quick</u> Link
+               <ul><li style=" float: none; list-style: none;">Home</li>
+                   <li style=" float:none; list-style: none;">About Us</li>
+                   <li style="float: none; list-style: none;">Services</li>
+                   <li style="float: none;list-style: none;">Projects</li>
+                   <li style="float: none;list-style: none;">Contact</li>
+                </ul>
+            </div>
+            <div class="main4"><u>Contact</u> US
+                <ul>
+                    <li style="list-style: none;">
+                        <img src="../pre_intern02/img/square icon.png" width="20px">
+                    " Room  - 1008, 10<sup>th</sup> Floor, Building - B,
+                     50"<sup>th</sup> Street Condominium, 50<sup>th</sup>"Street,
+                      Botahtaung Township, Yangon, Myanmar."
+
+                    </li>
+                    <li style="list-style: none;">
+                    
+                        <img src="../pre_intern02/img/phone icon.png" width="30px">
+                        "+(95) 9 4512 999 88, +(95) 9 535 1714"
+                    
+                    </li>
+                    <li style="list-style: none;">
+                    
+                        <img src="../pre_intern02/img/mail icon.png" width="20px">
+                        "info@sterling-myanmar.com"
+                    
+                    </li>
+                </ul>
+            </div>   
+           
+        <div class="main5"><a href="https://web.facebook.com/Sterling-Industrial-Technologies-Co-Ltd-167138143479014/">Facebook Link</a>         <img src="../pre_intern02/img/sterling.jpg" width="100px" class="fblink"></div>
+    </div>
+    <div class="footer">Copyright  STERLING MYANMAR. All Right Reserved. | Designed By Host Myanmar</div>
+</div>
+</body>
+</html>
